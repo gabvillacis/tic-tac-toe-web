@@ -15,17 +15,25 @@ body {
     margin-top: 3%;
 }
 
-.turn {
+.turn-display {
     color: white;
     font-size: 25px;
     text-align: center;    
 }
 
-.player-x {
+.player-display {
+    font-weight: 900;
+}
+
+.invisible {
+    display: none;
+}
+
+.player-X {
     color: #09C372;
 }
 
-.player-o {
+.player-O {
     color: #498AFB;
 }
 
@@ -38,7 +46,7 @@ body {
 }
 
 .box {
-    border: 1px solid white;
+    border: 1px solid white;    
     min-width: 100px;
     min-height: 100px;
     display: flex;
@@ -46,4 +54,30 @@ body {
     align-items: center;
     font-size: 50px;
     cursor: pointer;
+}
+
+#result-display {
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls .restart-control {    
+    background-color: #FF3860;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;    
+    font-size: 24px;    
+    cursor: pointer;
+    font-family: inherit;
 }

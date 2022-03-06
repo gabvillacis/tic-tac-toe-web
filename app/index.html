@@ -15,21 +15,24 @@
         <section class="title">
             <h1>Tic Tac Toe</h1>
         </section>
-        <section class="turn">
-            <h2>Turno de <span class="player-x">X</span></h2>
+        <section class="turn-display">
+            <h2>Turno de <span id="player-display" class="player-X">X</span></h2>
         </section>
         <section class="board">
-            <div class="box"/>
-            <div class="box"/>
-            <div class="box"/>
-            <div class="box"/>
-            <div class="box"/>
-            <div class="box"/>
-            <div class="box"/>
-            <div class="box"/>
-            <div class="box"/>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
         </section>
-        
+        <section id="result-display" class="invisible"></section>
+        <section class="controls">
+            <button class="restart-control">Reiniciar</button>
+        </section>
     </main>
     <script src="./logic.js"></script>
 </body>
